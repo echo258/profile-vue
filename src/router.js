@@ -6,6 +6,7 @@ import Projects from './views/projects'
 import Truenas from './views/truenas'
 import Resume from './views/resume'
 import Home from './views/home'
+import NotFound from './views/not-found'
 import './style.css'
 
 Vue.use(Router)
@@ -32,6 +33,12 @@ export default new Router({
       name: 'Home',
       path: '/',
       component: Home,
+    },
+    {
+      name: '404 - Not Found',
+      path: '**',
+      component: NotFound,
+      fallback: true,
     },
   ],
 })

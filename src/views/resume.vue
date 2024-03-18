@@ -9,7 +9,7 @@
           computer. that includes inspecting websites, networks, and security
           threats. including learning about privacy on and offline and the best
           practices to follow.
-          <span v-html="rawy5r7"></span>
+          <span v-html="rawfqct"></span>
         </span>
       </div>
       <img alt="image" src="/me1-200w.jpg" class="resume-image" />
@@ -47,7 +47,7 @@
         <div class="resume-cyber">
           <span class="resume-text08 subHeading">
             Cybersecurity Operations
-            <span v-html="rawczfy"></span>
+            <span v-html="rawqp52"></span>
           </span>
           <span class="resume-text09 date">September 2018 to May 2019</span>
         </div>
@@ -95,7 +95,7 @@
         <div class="resume-web-design">
           <span class="resume-text17 subHeading">
             Web Design
-            <span v-html="raw1n3x"></span>
+            <span v-html="rawuehy"></span>
           </span>
           <span class="resume-text18 date">September 2018 to December 2018</span>
         </div>
@@ -103,7 +103,7 @@
           <li class="resume-li09 list-item">
             <span>
               Learned in-depth functions
-              <span v-html="raw124p"></span>
+              <span v-html="rawvo1q"></span>
             </span>
           </li>
           <li class="resume-li10 list-item">
@@ -125,7 +125,7 @@
           <span>&amp;#8203;</span>
           <span>
             Associates in Applied Science: Computer Information Systems
-            <span v-html="rawumos"></span>
+            <span v-html="rawx1ms"></span>
           </span>
         </span>
         <span class="resume-text26"><span>GPA: 3.3</span></span>
@@ -146,7 +146,7 @@
         <span class="resume-text33">
           <span>
             High School Diploma
-            <span v-html="rawvylh"></span>
+            <span v-html="rawn3u2"></span>
           </span>
         </span>
         <span class="resume-text35"><span>GPA: 3.3</span></span>
@@ -160,17 +160,18 @@ import AppMenu from '../components/menu'
 
 export default {
   name: 'Resume',
+  props: {},
   components: {
     AppMenu,
   },
   data() {
     return {
-      rawy5r7: ' ',
-      rawczfy: ' ',
-      raw1n3x: ' ',
-      raw124p: ' ',
-      rawumos: ' ',
-      rawvylh: ' ',
+      rawfqct: ' ',
+      rawqp52: ' ',
+      rawuehy: ' ',
+      rawvo1q: ' ',
+      rawx1ms: ' ',
+      rawn3u2: ' ',
     }
   },
   metaInfo: {

@@ -17,6 +17,7 @@ import AppMenu from '../components/menu'
 
 export default {
   name: 'Truenas',
+  props: {},
   components: {
     AppMenu,
   },

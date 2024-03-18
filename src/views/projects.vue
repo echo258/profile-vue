@@ -31,7 +31,7 @@
       <div class="projects-container2">
         <h1 class="projects-text3">
           TrueNAS Scale Migration
-          <span v-html="raw4t26"></span>
+          <span v-html="rawr4eu"></span>
         </h1>
         <span class="projects-text4">
           Since the end of June, I have been running TrueNAS Scale. Witch runs a
@@ -50,12 +50,13 @@ import AppMenu from '../components/menu'
 
 export default {
   name: 'Projects',
+  props: {},
   components: {
     AppMenu,
   },
   data() {
     return {
-      raw4t26: ' ',
+      rawr4eu: ' ',
     }
   },
   metaInfo: {

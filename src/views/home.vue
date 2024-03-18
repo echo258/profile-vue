@@ -8,7 +8,7 @@
       <span>
         Hi, my name is Jason Guthrie. I have an Associate in Applied Science
         Degree: Computer Information Systems from Mid Michigan College.
-        <span v-html="raw243c"></span>
+        <span v-html="rawrxbh"></span>
       </span>
       <span></span>
       <span>
@@ -52,7 +52,7 @@
           <span class="home-text11">
             <span>
               I have taken two class in cyber security. Learned about
-              <span v-html="raw7t9x"></span>
+              <span v-html="raw2mts"></span>
             </span>
             <br />
             <span>
@@ -72,7 +72,7 @@
       </div>
     </div>
     <div class="home-container3">
-      <span class="home-text16">Version 22.8.10</span>
+      <span class="home-text16">Version 23.9.6</span>
     </div>
   </div>
 </template>
@@ -82,13 +82,14 @@ import AppMenu from '../components/menu'
 
 export default {
   name: 'Home',
+  props: {},
   components: {
     AppMenu,
   },
   data() {
     return {
-      raw243c: ' ',
-      raw7t9x: ' ',
+      rawrxbh: ' ',
+      raw2mts: ' ',
     }
   },
   metaInfo: {

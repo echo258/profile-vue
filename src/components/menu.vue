@@ -4,6 +4,14 @@
     <div class="menu-container">
       <router-link to="/resume" class="menu-navlink1">{{ text2 }}</router-link>
       <router-link to="/projects" class="menu-navlink2">{{ text3 }}</router-link>
+      <a
+        href="https://blog.jguthrie.me"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="menu-link"
+      >
+        {{ text31 }}
+      </a>
     </div>
   </div>
 </template>
@@ -17,9 +25,13 @@ export default {
       type: String,
       default: 'Jason Guthrie',
     },
-    link_text: {
+    linkText: {
       type: String,
       default: 'https://example.com',
+    },
+    text31: {
+      type: String,
+      default: 'Blog',
     },
     text3: {
       type: String,
@@ -66,6 +78,10 @@ export default {
   text-decoration: none;
 }
 .menu-navlink2 {
+  padding-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.menu-link {
   padding-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
