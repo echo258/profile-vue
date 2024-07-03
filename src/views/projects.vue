@@ -31,7 +31,7 @@
       <div class="projects-container2">
         <h1 class="projects-text3">
           TrueNAS Scale Migration
-          <span v-html="rawr4eu"></span>
+          <span v-html="rawwnp8"></span>
         </h1>
         <span class="projects-text4">
           Since the end of June, I have been running TrueNAS Scale. Witch runs a
@@ -56,7 +56,7 @@ export default {
   },
   data() {
     return {
-      rawr4eu: ' ',
+      rawwnp8: ' ',
     }
   },
   metaInfo: {

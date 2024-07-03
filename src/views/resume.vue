@@ -9,7 +9,7 @@
           computer. that includes inspecting websites, networks, and security
           threats. including learning about privacy on and offline and the best
           practices to follow.
-          <span v-html="rawfqct"></span>
+          <span v-html="rawafb5"></span>
         </span>
       </div>
       <img alt="image" src="/me1-200w.jpg" class="resume-image" />
@@ -47,7 +47,7 @@
         <div class="resume-cyber">
           <span class="resume-text08 subHeading">
             Cybersecurity Operations
-            <span v-html="rawqp52"></span>
+            <span v-html="rawg7wa"></span>
           </span>
           <span class="resume-text09 date">September 2018 to May 2019</span>
         </div>
@@ -95,7 +95,7 @@
         <div class="resume-web-design">
           <span class="resume-text17 subHeading">
             Web Design
-            <span v-html="rawuehy"></span>
+            <span v-html="rawrtju"></span>
           </span>
           <span class="resume-text18 date">September 2018 to December 2018</span>
         </div>
@@ -103,7 +103,7 @@
           <li class="resume-li09 list-item">
             <span>
               Learned in-depth functions
-              <span v-html="rawvo1q"></span>
+              <span v-html="rawa1mo"></span>
             </span>
           </li>
           <li class="resume-li10 list-item">
@@ -122,34 +122,31 @@
           <span class="resume-text22 date">May 2020</span>
         </div>
         <span class="resume-text23">
-          <span>&amp;#8203;</span>
-          <span>
-            Associates in Applied Science: Computer Information Systems
-            <span v-html="rawx1ms"></span>
-          </span>
+          Associates in Applied Science: Computer Information Systems
+          <span v-html="raw8mbc"></span>
         </span>
-        <span class="resume-text26"><span>GPA: 3.3</span></span>
+        <span class="resume-text24"><span>GPA: 3.3</span></span>
       </div>
       <div class="resume-ed1">
         <div class="resume-mid1">
-          <span class="resume-text28 subHeading">
-            <span class="resume-text29">
+          <span class="resume-text26 subHeading">
+            <span class="resume-text27">
               Mount Pleasant Senior High School &amp;
             </span>
             <br />
-            <span class="resume-text31">
+            <span class="resume-text29">
               Technical Center, Mount Pleasant, MI
             </span>
           </span>
-          <span class="resume-text32 date">June 2017</span>
+          <span class="resume-text30 date">June 2017</span>
         </div>
-        <span class="resume-text33">
+        <span class="resume-text31">
           <span>
             High School Diploma
-            <span v-html="rawn3u2"></span>
+            <span v-html="raw05a5"></span>
           </span>
         </span>
-        <span class="resume-text35"><span>GPA: 3.3</span></span>
+        <span class="resume-text33"><span>GPA: 3.3</span></span>
       </div>
     </div>
   </div>
@@ -166,12 +163,12 @@ export default {
   },
   data() {
     return {
-      rawfqct: ' ',
-      rawqp52: ' ',
-      rawuehy: ' ',
-      rawvo1q: ' ',
-      rawx1ms: ' ',
-      rawn3u2: ' ',
+      rawafb5: ' ',
+      rawg7wa: ' ',
+      rawrtju: ' ',
+      rawa1mo: ' ',
+      raw8mbc: ' ',
+      raw05a5: ' ',
     }
   },
   metaInfo: {
@@ -542,7 +539,7 @@ export default {
   margin-left: 15%;
   margin-bottom: var(--dl-space-space-haf-unit);
 }
-.resume-text26 {
+.resume-text24 {
   align-self: flex-start;
   margin-top: 0px;
   margin-left: 15%;
@@ -575,29 +572,29 @@ export default {
   align-items: flex-start;
   justify-content: space-between;
 }
-.resume-text28 {
+.resume-text26 {
   align-self: flex-start;
   font-style: normal;
   margin-left: 10%;
 }
+.resume-text27 {
+  font-style: normal;
+}
 .resume-text29 {
   font-style: normal;
 }
-.resume-text31 {
-  font-style: normal;
-}
-.resume-text32 {
+.resume-text30 {
   align-self: flex-start;
   font-style: normal;
   text-align: center;
 }
-.resume-text33 {
+.resume-text31 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-haf-unit);
   margin-left: 15%;
   margin-bottom: var(--dl-space-space-haf-unit);
 }
-.resume-text35 {
+.resume-text33 {
   align-self: flex-start;
   margin-top: 0px;
   margin-left: 15%;
